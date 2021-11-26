@@ -4,6 +4,9 @@
     android:layout_height="70dp"
     android:gravity="center_vertical"
     android:orientation="horizontal"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="@drawable/custom_ripple"
     android:id="@+id/story_item_container">
 
     <androidx.appcompat.widget.AppCompatImageView

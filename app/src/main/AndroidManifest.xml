@@ -8,12 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TruyenCuoi">
+        android:theme="@style/FullScreen">
         <activity
-            android:name=".StoryDetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".view.act.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

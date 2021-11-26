@@ -40,14 +40,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
         Story story = stories.get(position);
 
         holder.storyName.setText(story.getName());
-        holder.storyItemContainer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (recycleViewListener != null){
-                    recycleViewListener.onClick(story);
-                }
-            }
-        });
+        holder.currentStory = story;
     }
 
     @Override
@@ -55,14 +48,23 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
         return stories.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
         public TextView storyName;
         public LinearLayout storyItemContainer;
+        public Story currentStory;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             storyName = itemView.findViewById(R.id.story_name);
             storyItemContainer = itemView.findViewById(R.id.story_item_container);
+            storyItemContainer.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (recycleViewListener != null){
+                        recycleViewListener.onClick(currentStory);
+                    }
+                }
+            });
         }
     }
 }

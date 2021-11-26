@@ -3,12 +3,16 @@
     android:layout_width="match_parent"
     android:orientation="horizontal"
     android:id="@+id/category_container"
+    android:layout_marginTop="10dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@drawable/custom_ripple"
     android:layout_height="100dp">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/category_img"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:layout_weight="1"
         />
     <TextView
@@ -21,6 +25,5 @@
         android:textSize="22sp"
         android:textStyle="bold"
         android:text="Con trai"/>
-
 
 </LinearLayout>

@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/drawable/custom_ripple.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/activity_story_detail.xml" value="0.16" />
+        <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/home_fragment.xml" value="0.13" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/nav_header.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/nav_item.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/navigation_drawer_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/splash_fragment.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/story_detail_fragment.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/story_item.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/story_viewpaper_item.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/9999/Desktop/AndroidStudioProjects/Truyencuoi/app/src/main/res/layout/toolbar_main.xml" value="0.20833333333333334" />
