@@ -23,6 +23,7 @@ public class HomeViewModel extends BaseViewModel{
 
 
     public void initCategory(){
+        categoryList.clear();
         try {
             String[] files = assetManager.list("data");
             for (String file : files){

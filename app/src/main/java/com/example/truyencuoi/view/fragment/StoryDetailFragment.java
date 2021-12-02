@@ -31,7 +31,7 @@ public class StoryDetailFragment extends BaseFragment<HomeViewModel> {
         TextView cateName = findViewById(R.id.cate_name);
         TextView storyNumber = findViewById(R.id.story_number);
         cateName.setText(mViewModel.getCurrentCategory().getValue());
-        pageNum = Integer.toString(storyIndex + 1) + "/" + Integer.toString(mViewModel.getStoryListLiveData().getValue().size() + 1);
+        pageNum = Integer.toString(storyIndex + 1) + "/" + Integer.toString(mViewModel.getStoryListLiveData().getValue().size());
         storyNumber.setText(pageNum);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
